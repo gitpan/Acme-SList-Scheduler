@@ -1,5 +1,5 @@
 package Acme::SList::Scheduler;
-
+$Acme::SList::Scheduler::VERSION = '0.04';
 use strict;
 use warnings;
 
@@ -7,7 +7,6 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw(srun label);
 our @EXPORT_OK = qw();
-our $VERSION   = '0.03';
 
 use Getopt::Std;
 use Acme::SList::Utilities qw(sdate sduration);
